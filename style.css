@@ -1,0 +1,193 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: auto;
+    /*background-color: #cdffb0b3;
+    background-image: linear-gradient(50deg, #cdffb0b3 33%, #b721ffb3 60%, #cdffb0b3 80%);*/
+    background-image: url(http://getwallpapers.com/wallpaper/full/d/f/a/811478-full-size-purple-flower-background-2560x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.7);
+    color:  #b721ffb3;
+    border-radius: 0 25px 25px 25px;
+    width: 60%;
+    margin: auto;
+}
+h1 {
+    font-variant: small-caps;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 0 25px 25px 25px;
+    border: 2px groove #B721FF;
+    padding: 5px;
+    background-color: #cdffb0b3;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 3px -1px #B721FF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#calendar {
+    border-radius: 0 25px 25px 25px;
+    text-align: center;
+    box-shadow: 5px 5px 3px -1px #B721FF;
+}
+
+.left {
+  position: absolute;
+  top: 30%;
+  right: 84%;
+  height: 300px;
+  width: 200px;
+}
+
+.right {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+
+.upcoming {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 375px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 0 25px 25px 25px;
+    box-shadow: 5px 5px 3px -1px #B721FF;
+    color: #B721FF;
+    background-color: #cdffb0b3;
+    line-height: 1.75;
+
+}
+
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 375px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 0 25px 25px 25px;
+    box-shadow: 5px 5px 3px -1px #B721FF;
+    color: #B721FF;
+    background-color: #cdffb0b3;
+    padding-bottom: 10px;
+}
+
+form h3 {
+    text-decoration: underline;
+}
+
+form li {
+    text-align: left;
+}
+
+textarea {
+    width: 300px;
+    height: 180px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+form button {
+    display: block;
+    color: #B721FF;
+    border-radius: 0 25px 25px 25px;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+    color: #B721FF;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#tracker {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 25px 25px 25px;
+    box-shadow: 5px 5px 3px -1px #B721FF;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+#countdown, #tracker {
+    background-color: #cdffb0b3;
+}
+
+#countdown {
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 0 25px 25px 25px;
+}
+
+span {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+.donation {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 0 25px 25px 25px;
+    background-color:#cdffb0b3;
+}
+
+p {
+    color: #B721FF;
+    font-size: 18px;
+}
